@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/icons/todo.ico" type="image/x-icon">
+    <title>Todo App</title>
+</head>
+<body>
+    <h1 title="Todo App">TODO APP</h1>
+    <div class="task-input-container">
+        <input type="text" name="taskinput" title="task input field" id="taskinput" placeholder="Enter the task" autofocus>
+        <button title="Add task" type="submit" id="add">
+            <img src="icons/add.png" alt="">
+        </button>
+    </div>
+    <h3 title="Task list">Task List</h3>
+    <div>
+        <ol id="ol"></ol>
+    </div>
+    <dialog id="editDialog">
+        <input type="text" id="editInput" placeholder="Edit task" title="Edit input field">
+        <button id="confirmEdit" title="Confirm">Confirm</button>
+        <button id="cancelEdit" title="Cancel">Cancel</button>
+    </dialog>
+    <script src="script.js"></script>
+</body>
+</html>
